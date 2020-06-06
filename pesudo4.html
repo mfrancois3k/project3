@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        input[type = "radio"]:indeterminate + label{
+            color: red;
+            /*if not checked*/
+        }
+        
+        
+    
+         input[type = "checked"]:checked + label{
+            color: lawngreen;
+             /*if is checked makered shows collow*/
+        }
+        input[type = "email"]:invalid {
+            border: 2px solid red;
+        }
+        
+        input[type = "email"]:valid {
+            border: 2px solid lawngreen;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <input type="radio" name="" id="">
+    <label for="game">Cricket</label>
+    
+    <input type="checkbox" name="" id="">
+    <label for="course">CSS 3</label>
+    <input type="email" name="" id="">
+</body>
+</html>

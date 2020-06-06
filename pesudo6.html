@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p:not(.para, .para2){
+            color: red;
+            /*safari*/
+        }
+         p:not(.para4):not(.para2)         p:not(.para6) ){
+ {
+            color: red;
+            /*Firefox and cr=hrome*/
+        }
+    
+              p:not(:first-child){
+            color: red;
+            /*safari*/
+        }
+    </style>
+</head>
+<body>
+    <p class="par1">This is para 1</p>
+    <p class="par2">This is para 2</p>
+    <p class="par3">This is para 3</p>
+    <p class="par4">This is para 4</p>
+    <p class="par5">This is para 5</p>
+    <p class="par6">This is para 6</p>
+    <p class="par7">This is para 7</p>
+</body>
+</html>

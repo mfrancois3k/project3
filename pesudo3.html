@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pesudo3</title>
+    <style>
+       *{
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        input:placeholder-shown + label {
+            opacity: 0;
+            transform: opacity 0.5s;
+        }
+     
+        label {
+            opacity: 1;
+        }
+        
+        input:enabled{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- This for input feilds to show  -->
+    <input type="text" placeholder="Your name">
+    <label for="">Your name: </label>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pesudo class7</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+/*
+        input:enabled{
+            background-color: aquamarine;
+        }
+        input:disabled{
+         background-color: blueviolet;
+        }
+*/
+        p:read-only{
+          background-color: aqua;  
+        }
+        
+         input:read-write{
+          color: brown;  
+        }
+        
+    </style>
+</head>
+<body>
+   <input type="text" readonly>
+   <input type="text" disabled="">
+   <p>This is par </p>
+   <p contenteditable="true">This is par </p>
+    
+</body>
+</html>
